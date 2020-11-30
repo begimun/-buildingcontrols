@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1056px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 30px;
+  background-color: #212B31;
+  border: 2px solid transparent;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  /* identical to box height, or 133% */
+}
+
+.col-3 {
+  width: 24,99;
+}
+
+.col-4 {
+  width: 33,33%;
+}
+
+.companies {
+  padding: 136px 174px;
+}
+
+.companies__item {
+  margin-left: 184px;
+}
+
+.companies__item:nth-child(1) {
+  margin: 0;
+}
+
+.companies__description {
+  text-align: center;
+}
+
+.companies__img {
+  margin: 46px 302px;
+}
+
+.offer__title {
+  font-family: "Inter", sans-serif;
+  color: #212B31;
+  margin-bottom: 60px;
+}
+
+.offer__items {
+  padding: 144px 46px;
+  background: url(../img/offer.png);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 64px;
+  color: #212B31;
+}
+
+.footer {
+  padding: 128px 0;
+}
+
+.footer__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer__title {
+  margin-bottom: 32px;
+}
+
+.footer__top {
+  margin-bottom: 168px;
+}
+
+.footer__bottom {
+  margin: 30px 0;
+}
+/*# sourceMappingURL=index.css.map */

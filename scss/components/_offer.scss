@@ -1,0 +1,23 @@
+.offer {
+
+&__title{
+    font-family: $font-inter;
+    color: $color-black;
+    margin-bottom: 60px;
+}
+
+&__items{
+    padding: 144px 46px;
+    background: url(../img/offer.png);
+    text-align: center;
+    font-family: $font-inter;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 64px;
+color: $color-black;
+    
+}
+    
+}
+
